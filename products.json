@@ -1,0 +1,6 @@
+[
+    {"id":1,"title":"Auto1","description":"description1","price":15000,"thumbnail":"url","code":123,"stock":5},
+    {"id":2,"title":"Auto2","description":"description2","price":25000,"thumbnail":"url","code":223,"stock":3},
+    {"id":3,"title":"Auto3","description":"description3","price":20000,"thumbnail":"url","code":203,"stock":2},
+    {"id":4,"title":"Auto4","description":"description4","price":22000,"thumbnail":"url","code":113,"stock":7}
+    ]
