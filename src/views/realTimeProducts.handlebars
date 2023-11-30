@@ -1,0 +1,19 @@
+<form id="form-realtimeAdd">
+    Title:<input type="text" class="text" id="title">
+    Description:<input type="text" class="text" id="description">
+    Price:<input type="text" class="text" id="price">
+    Thumbnail:<input type="text" class="text" id="thumbnail">
+    Code:<input type="text" class="text" id="code">
+    Stock:<input type="text" class="text" id="stock">
+    <input type="submit" value="Agregar">
+</form>
+
+<form id="form-realtimeDelete">
+    Id:<input type="text" class="text" id="product-delete">
+    <input type="submit" value="Eliminar">
+</form>
+
+<div id="products-realtime"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/realTime.js"></script>

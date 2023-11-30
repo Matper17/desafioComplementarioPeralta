@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+<body>
+    <h1> Welcome {{user}}</h1>
+    <ul>
+    {{#each products}}
+      <li>{{name}}</li>
+      <li>{{price}}</li>
+      <li>{{stock}}</li>
+      <li>{{description}}</li>
+    {{/each}}
+  </ul>
+  <button><a href="/api/sessions/signout"> Sign Out </a></button>
+</body>
+</html>

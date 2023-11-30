@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+</head>
+<body style="display: flex; justify-content: center; flex-direction: column;">
+    <div id="chat" style="border: 1px solid;"></div>
+    <form id="form-chat" style="display: flex; justify-content: center;">
+        <input type="text" id="user" placeholder="Nombre">
+        <input type="text" id="message" placeholder="Mensaje">
+        <input type="submit" value="Enviar">
+    </form> 
+</body>
+</html>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/chat.js"></script>
